@@ -32,9 +32,15 @@ public class Variaveis {
       Long contaCorrente = 9223372036854775807L;
       float real = 1.45f;
       Double dolar = 5.537275473;
-      Boolean botaoAtivado = false;
+      Boolean botaoAtivado = true;
 
-
-      System.out.println(botaoAtivado);
+        System.out.println(nome);
+        System.out.println(idade);
+        System.out.println(estoque);
+        System.out.println(contaCorrente);
+        System.out.println(real);
+        System.out.println(dolar);
+        System.out.println(botaoAtivado);
+      
     }
 }
