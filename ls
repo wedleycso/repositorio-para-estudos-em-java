@@ -1,1 +1,21 @@
-
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=/.codespaces/bin/gitcredential_github.sh
+user.name=Wédley C. Oliveira 
+user.email=86844541+wedleycso@users.noreply.github.com
+gpg.program=/.codespaces/bin/gh-gpgsign
+init.defaultbranch=main
+user.name=Seu Nome
+user.email=wedleycso@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/wedleycso/repositorio-para-estudos-em-java
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+lfs.repositoryformatversion=0
+commit.gpgsign=true
